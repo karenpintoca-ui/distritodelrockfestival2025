@@ -1,0 +1,567 @@
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #000; 
+    color: #fff;
+    line-height: 30px;
+    margin: 0;
+}
+
+
+a {
+    text-decoration: none; 
+    color: inherit;
+    font-weight: bold;
+    transition: color 10px;
+}
+
+a:hover {
+    color: #cc0000; 
+    text-decoration: none;
+}
+.titulo-seccion {
+    color: #fff;
+    text-transform: uppercase;
+    font-size: 25px;
+    margin-bottom: 10px;
+}
+
+
+.contenedor-contenido {
+    max-width: 1100px;
+    margin: 0 auto;
+    padding: 0 5%;
+}
+
+
+.encabezado-principal {
+    background-color: #fff;
+    color: #cc0000; 
+    padding: 10px 0;
+    text-align: center;
+}
+
+.encabezado-principal h1 {
+    font-size: 23px;
+    text-transform: uppercase;
+    margin: 0;
+}
+
+.boton-entradas {
+    background-color: #ffffff;
+    border: 1px solid #000;
+    padding: 10px 25px;
+    font-size: 18px;
+    font-weight: bold;
+    cursor: pointer;
+    margin-top: 15px;
+    transition: background-color 0.3s, color 0.3s; 
+}
+
+.boton-entradas:hover {
+    background-color: #cc0000; 
+    color: #fff;
+    border: 1px solid #cc0000; 
+}
+.menu-principal ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    padding: 5px 0;
+    margin: 0;
+}
+
+.menu-principal ul li a {
+    color: #000;
+    font-weight: bold;
+    padding: 5px 15px;
+    display: block;
+}
+
+
+.menu-principal ul li a:hover {
+    color: #cc0000;
+}
+
+.seccion-principal {
+    position: relative;
+    height: 600px; 
+    background-color: #000;
+    overflow: hidden;
+}
+
+.fondo-concierto {
+    background-image: url('Imagenes festival/multitud.jpg'); 
+    background-position: center top;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 76%;
+    height: 95%;
+    opacity: 0.5; 
+}
+
+.info-evento {
+    position: absolute;
+    top: 50%;
+    right: 10%;
+    transform: translateY(-50%);
+    text-align: right;
+    z-index: 10;
+}
+
+.titulo-rojo {
+    color: #cc0000; 
+    font-weight: bold;
+    font-size: 1.5em;
+    margin-bottom: 5px;
+    text-transform: uppercase;
+}
+
+.fecha-evento {
+    font-size: 6em;
+    font-weight: 900;
+    line-height: 0.8;
+    margin-bottom: 20px;
+}
+
+.mes-fecha {
+    font-size: 80px;
+    display: block;
+    font-weight: bold;
+}
+
+.lugar-evento {
+    font-size: 20px;
+    margin-top: 10px;
+    color: #ccc;
+}
+
+.boton-entradas {
+    background-color: #fff;
+    border: none;
+    color: #000;
+    padding: 10px 25px;
+    font-size: 20px;
+    font-weight: bold;
+    cursor: pointer;
+    margin-top: 15px;
+}
+
+
+.descripcion-box {
+    background-color: #fff;
+    color: #000;
+    padding: 30px;
+    margin: 30px auto;
+    text-align: center;
+    max-width: 90%; 
+}
+.descripcion-box p {
+    margin: 0;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.seccion-cartelera {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 30px;
+    padding: 40px 0;
+}
+
+.texto-cartelera {
+    width: 50%;
+    padding-right: 20px;
+}
+
+.imagen-cartelera {
+    width: 50%;
+}
+
+.imagen-cartelera img {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
+
+.seccion-boleteria {
+    display: flex;
+    margin: 40px 0;
+}
+
+.bloque-pagos {
+    background-color: #fff;
+    color: #000;
+    padding: 25px;
+    width: 40%;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.titulo-pagos {
+    font-size: 1.2em;
+    text-transform: uppercase;
+    margin-bottom: 20px;
+}
+
+.logos-pago-grupo {
+    display: flex;
+    flex-direction: column; 
+    align-items: center;
+    gap: 15px;
+}
+
+.logos-pago-grupo img {
+    max-width: 100px;
+    height: auto;
+}
+
+.bloque-boleteria {
+    background-color: #333; 
+    color: #fff;
+    padding: 25px;
+    width: 60%;
+}
+
+.titulo-boleteria {
+    font-size: 1.2em;
+    text-transform: uppercase;
+    margin-top: 0;
+    margin-bottom: 10px;
+}
+
+.bloque-boleteria p {
+    font-size: 0.9em;
+    margin-bottom: 20px;
+}
+
+
+.seccion-hospedaje {
+    display: flex;
+    margin: 40px 0;
+}
+
+.imagen-hospedaje {
+    width: 50%;
+}
+
+.imagen-hospedaje img {
+    width: 100%;
+    height: auto;
+    display: block;
+    object-fit: cover;
+}
+
+.texto-hospedaje {
+    width: 50%;
+    background-color: #1a1a1a; 
+    padding: 25px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.texto-hospedaje .pregunta {
+    font-style: italic;
+    font-weight: bold;
+    color: #cc0000; 
+}
+
+.seccion-galeria {
+    padding: 40px 0;
+    text-align: center;
+}
+
+.grupo-imagenes-galeria {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    margin: 20px 0;
+}
+
+.grupo-imagenes-galeria img {
+    width: 30%;
+    max-width: 300px;
+    height: auto;
+    object-fit: cover;
+}
+
+.llamada-accion {
+    background-color: #000;
+    text-align: center;
+    padding: 50px 0;
+}
+
+.llamada-accion h3 {
+    font-size: 1.6em;
+    font-weight: bold;
+    text-transform: uppercase;
+    line-height: 1.3;
+}
+
+.pie-pagina {
+    background-color: #fff;
+    color: #000;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px 5%;
+}
+
+.info-contacto h4 {
+    color: #000;
+    font-size: 1.1em;
+    margin-top: 0;
+    margin-bottom: 5px;
+}
+
+.info-contacto p {
+    font-size: 19px;
+    margin: 0;
+}
+
+.info-cultura p {
+    font-weight: bold;
+    margin: 0;
+}
+
+@media (max-width: 1024px) {
+    .menu-principal ul {
+        flex-wrap: wrap; 
+    }
+}
+
+@media (max-width: 768px) {
+    .contenedor-contenido {
+        padding: 0 20px;
+    }
+    
+    .seccion-principal {
+        height: 400px;
+    }
+    .info-evento {
+        top: 60%; 
+        right: 5%;
+        left: 5%;
+        text-align: center; 
+        transform: none;
+    }
+    .fecha-evento {
+        font-size: 4em;
+    }
+    
+   
+    .seccion-cartelera,
+    .seccion-boleteria,
+    .seccion-hospedaje {
+        flex-direction: column;
+        margin: 20px 0;
+    }
+
+    .texto-cartelera,
+    .imagen-cartelera,
+    .bloque-pagos,
+    .bloque-boleteria,
+    .imagen-hospedaje,
+    .texto-hospedaje {
+        width: 100%; 
+        padding: 15px;
+    }
+    
+   
+    .seccion-hospedaje {
+        flex-direction: column-reverse;
+    }
+    
+
+    .bloque-pagos {
+        order: -1; 
+    }
+
+    .grupo-imagenes-galeria {
+        flex-wrap: wrap;
+    }
+    .grupo-imagenes-galeria img {
+        width: 45%; 
+    }
+
+    .pie-pagina {
+        flex-direction: column;
+        text-align: center;
+    }
+    .info-contacto, .info-cultura {
+        margin-bottom: 10px;
+    }
+}
+
+@media (max-width: 480px) {
+    .menu-principal ul li a {
+        padding: 5px 8px;
+    }
+    .grupo-imagenes-galeria img {
+        width: 90%; 
+    }
+    .llamada-accion h3 {
+        font-size: 19px;
+    }
+}
+
+
+.seccion-pagina-titulo {
+    padding: 40px 0;
+    text-align: center;
+    background-color: #1a1a1a; 
+    margin-bottom: 30px;
+}
+
+.seccion-pagina-titulo h2 {
+    color: #cc0000; 
+    font-size: 30px;
+    text-transform: uppercase;
+}
+
+.seccion-pagina-titulo p {
+    color: #ccc;
+    font-size: 24px
+}
+
+.subtitulo-media {
+    color: #fff;
+    text-transform: uppercase;
+    font-size: 22px;
+    border-bottom: 2px solid #cc0000; 
+    padding-bottom: 5px;
+    margin: 40px 0 20px 0;
+}
+
+.grupo-imagenes-4 {
+    display: flex;
+    gap: 15px;
+    margin-bottom: 20px;
+    justify-content: center;
+}
+
+.grupo-imagenes-4 img {
+    width: calc(25% - 11.25px); 
+    height: 200px; 
+    object-fit: cover; 
+    border-radius: 8px;
+}
+.grupo-videos {
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    margin-bottom: 20px;
+    flex-wrap: wrap;
+}
+
+.video-item {
+    width: calc(33.33% - 13.33px); 
+    background-color: #333;
+    height: 250px;
+    border-radius: 8px;
+    color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    font-size: 1.2em;
+}
+.enlace-secundario {
+    display: block;
+    text-align: right;
+    font-size:19px;
+    margin-top: 10px;
+}
+.alerta-ubicacion {
+    background-color: #cc0000;
+    color: #fff;
+    padding: 20px;
+    margin-bottom: 40px;
+    text-align: center;
+    border-radius: 5px;
+    font-size:27;
+}
+.alerta-ubicacion .mensaje-alerta {
+    font-weight: bold;
+    margin: 0;
+}
+.hoteles-asociados {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+.tarjeta-hotel {
+    display: flex;
+    background-color: #1a1a1a;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.4);
+}
+
+.tarjeta-hotel img {
+    width: 40%;
+    height: 250px;
+    object-fit: cover;
+}
+
+.tarjeta-hotel .info-hotel {
+    width: 60%;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.tarjeta-hotel h4 {
+    color: #cc0000;
+    font-size: 28px;
+    margin-top: 0;
+}
+.boton-hotel-reserva {
+    background-color: #fff;
+    color: #000;
+    padding: 10px 15px;
+    text-align: center;
+    border-radius: 5px;
+    font-weight: bold;
+    transition: background-color 0.3s;
+}
+
+.boton-hotel-reserva:hover {
+    background-color: #cc0000; 
+    color: #fff;
+}
+
+@media (max-width: 768px) {
+    
+    .grupo-imagenes-4, .grupo-videos {
+        flex-direction: column; 
+        gap: 10px;
+    }
+
+    .grupo-imagenes-4 img, .video-item {
+        width: 100%; 
+        max-width: none;
+    }
+
+    .subtitulo-media {
+        font-size: 25px;
+    }
+    .tarjeta-hotel {
+        flex-direction: column;
+    }
+    
+    .tarjeta-hotel img, .tarjeta-hotel .info-hotel {
+        width: 100%; 
+    }
+
+    .tarjeta-hotel img {
+        height: 200px;
+    }
+}
